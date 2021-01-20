@@ -32,7 +32,7 @@
                 <extensions>true</extensions>
                 <configuration>
                     <!--protobuf 文件所在位置-->
-                    <protoSourceRoot>./src/main/resources/protobuf</protoSourceRoot>
+                    <protoSourceRoot>${project.basedir}/src/main/resources/protobuf</protoSourceRoot>
                     <!-- 编译生产目录 -->
                     <!--<outputDirectory>${project.build.directory}/generated-sources/protobuf/java</outputDirectory>-->
                     <outputDirectory>${project.build.sourceDirectory}</outputDirectory>
