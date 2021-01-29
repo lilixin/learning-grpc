@@ -11,6 +11,8 @@
     <modules>
         <module>grpc-server</module>
         <module>grpc-service</module>
+        <module>grpc-interface</module>
+        <module>grpc-client</module>
     </modules>
 
 </project>
